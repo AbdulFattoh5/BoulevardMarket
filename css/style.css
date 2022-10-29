@@ -1,0 +1,320 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #151515;
+}
+
+.header{
+    padding: 6px 245px;
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    transition: 0.4s;
+}
+
+.link:hover{
+    color: lightgray;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header_icon img{
+    transition: 0.4s;
+}
+
+.header_icon img:hover{
+    transform: scale(1.4);
+}
+
+.banner_section{
+    margin-bottom: 30px;
+}
+
+.container_banner{
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 700px;
+    width: 100%;
+}
+
+.banner{
+    background: url(../img/banner.png) no-repeat top center/cover;
+    height: 100%;
+    width: 100%;
+}
+
+.banner_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 38px;
+    height: 100%;
+    color: white;
+}
+
+.banner_h{
+    font-family: 'Prosto One', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.banner_a{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    padding: 13px 14px;
+    border-radius: 10px;
+    color: #171718;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.airpods{
+    margin-bottom: 50px;
+}
+
+.airpods_wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+}
+
+.airpods_p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.left_block{
+    padding: 33px;
+}
+
+.case{
+    margin-bottom: 50px;
+}
+
+.case_wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 87px;
+    align-items: center;
+    color: white;
+}
+
+.case_p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.information{
+    margin-bottom: 79px;
+}
+
+.information_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 86px;
+}
+
+.inform_p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    width: 333px;
+    height: 120px;
+}
+
+.inform_l-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    width: 333px;
+    height: 144px;
+}
+
+.inform_middle{
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.inform_middle::before{
+    display: inline-block;
+    content: '';
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: calc(50%);
+    background: #C4C4C4;
+    right: 270px;
+}
+
+.inform_middle::after{
+    display: inline-block;
+    content: '';
+    width: 61px;
+    height: 1px;
+    position: absolute;
+    top: calc(50%);
+    background: #C4C4C4;
+}
+
+.cards{
+    margin-bottom: 55px;
+}
+
+.cards_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    color: black;
+}
+
+.card{
+    background: white;
+    border-radius: 6px;
+    padding: 15px 59px;
+    width: 255px;
+    text-align: center;
+}
+
+.card_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_h{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.card_p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+
+.cars_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    background: #151515;
+    padding: 7px 57px;
+    transition: 0.4s;
+}
+
+.cars_btn:hover{
+    background: white;
+    color: #151515;
+}
+
+.footer{
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    padding: 81px 245px;
+}
+
+.footer_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    transition: 0.4s;
+}
+
+.footer_link:hover{
+    color: lightgrey;
+}
+
+.plastic_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.plastic_card img{
+    transition: 0.4s;
+}
+
+.plastic_card img:hover{
+    transform: scale(1.4);
+}
