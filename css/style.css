@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,36 +8,36 @@
     text-decoration: none;
 }
 
-body{
+body {
     background: #151515;
 }
 
-.header{
+.header {
     padding: 6px 245px;
     background: #282828;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
 }
 
-.wrap{
+.wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.link{
+.link {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -46,42 +46,39 @@ body{
     transition: 0.4s;
 }
 
-.link:hover{
+.link:hover {
     color: lightgray;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.header_icon img{
+.header_icon img {
     transition: 0.4s;
 }
 
-.header_icon img:hover{
+.header_icon img:hover {
     transform: scale(1.4);
 }
 
-.banner_section{
+.banner {
     margin-bottom: 30px;
+    background: url(../img/banner.png) no-repeat top center/cover;
+    height: 100%;
+    width: 100%;
 }
 
-.container_banner{
+.container_banner {
     max-width: 1600px;
     margin: 0 auto;
     height: 700px;
     width: 100%;
 }
 
-.banner{
-    background: url(../img/banner.png) no-repeat top center/cover;
-    height: 100%;
-    width: 100%;
-}
-
-.banner_wrap{
+.banner_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,14 +88,14 @@ body{
     color: white;
 }
 
-.banner_h{
+.banner_h {
     font-family: 'Prosto One', sans-serif;
     font-size: 100px;
     font-weight: 400;
     line-height: 75px;
 }
 
-.banner_a{
+.banner_a {
     background: white;
     display: flex;
     align-items: center;
@@ -113,33 +110,33 @@ body{
     line-height: 24px;
 }
 
-.airpods{
+.airpods {
     margin-bottom: 50px;
 }
 
-.airpods_wrap{
+.airpods_wrap {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     color: white;
 }
 
-.airpods_p{
+.airpods_p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 27px;
 }
 
-.left_block{
+.left_block {
     padding: 33px;
 }
 
-.case{
+.case {
     margin-bottom: 50px;
 }
 
-.case_wrap{
+.case_wrap {
     display: flex;
     justify-content: space-between;
     gap: 87px;
@@ -147,18 +144,18 @@ body{
     color: white;
 }
 
-.case_p{
+.case_p {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 27px;
 }
 
-.information{
+.information {
     margin-bottom: 79px;
 }
 
-.information_wrap{
+.information_wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -166,7 +163,7 @@ body{
     gap: 86px;
 }
 
-.inform_p{
+.inform_p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -176,7 +173,7 @@ body{
     height: 120px;
 }
 
-.inform_l-p{
+.inform_l-p {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -186,13 +183,13 @@ body{
     height: 144px;
 }
 
-.inform_middle{
+.inform_middle {
     text-align: center;
     position: relative;
     display: block;
 }
 
-.inform_middle::before{
+.inform_middle::before {
     display: inline-block;
     content: '';
     width: 61px;
@@ -203,7 +200,7 @@ body{
     right: 270px;
 }
 
-.inform_middle::after{
+.inform_middle::after {
     display: inline-block;
     content: '';
     width: 61px;
@@ -213,11 +210,11 @@ body{
     background: #C4C4C4;
 }
 
-.cards{
+.cards {
     margin-bottom: 55px;
 }
 
-.cards_wrap{
+.cards_wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -225,7 +222,7 @@ body{
     color: black;
 }
 
-.card{
+.card {
     background: white;
     border-radius: 6px;
     padding: 15px 59px;
@@ -233,7 +230,7 @@ body{
     text-align: center;
 }
 
-.card_body{
+.card_body {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -241,14 +238,14 @@ body{
     gap: 10px;
 }
 
-.card_h{
+.card_h {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
 }
 
-.card_p{
+.card_p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -256,7 +253,7 @@ body{
     padding-bottom: 10px;
 }
 
-.cars_btn{
+.cars_btn {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -267,31 +264,31 @@ body{
     transition: 0.4s;
 }
 
-.cars_btn:hover{
+.cars_btn:hover {
     background: white;
     color: #151515;
 }
 
-.footer{
+.footer {
     background: #282828;
     box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
     padding: 81px 245px;
 }
 
-.footer_wrap{
+.footer_wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.footer_list{
+.footer_list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.footer_link{
+.footer_link {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -300,21 +297,21 @@ body{
     transition: 0.4s;
 }
 
-.footer_link:hover{
+.footer_link:hover {
     color: lightgrey;
 }
 
-.plastic_cards{
+.plastic_cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 29px;
 }
 
-.plastic_card img{
+.plastic_card img {
     transition: 0.4s;
 }
 
-.plastic_card img:hover{
+.plastic_card img:hover {
     transform: scale(1.4);
 }
