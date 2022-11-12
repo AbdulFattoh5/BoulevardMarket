@@ -13,13 +13,14 @@ body {
 }
 
 .header {
-    padding: 6px 245px;
+    padding: 6px 0;
     background: #282828;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .container {
     max-width: 1140px;
+    padding: 0 15px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -29,6 +30,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header_logo{
+    display: none;
 }
 
 .menu {
@@ -48,6 +53,10 @@ body {
 
 .link:hover {
     color: lightgray;
+}
+
+.phone_header_icon{
+    display: none;
 }
 
 .icons {
@@ -93,6 +102,7 @@ body {
     font-size: 100px;
     font-weight: 400;
     line-height: 75px;
+    text-align: center;
 }
 
 .banner_a {
@@ -116,7 +126,8 @@ body {
 
 .airpods_wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     color: white;
 }
@@ -126,6 +137,12 @@ body {
     font-size: 22px;
     font-weight: 500;
     line-height: 27px;
+    max-width: 538px;
+}
+
+.airpods_img{
+    max-width: 552px;
+    height: 335px;
 }
 
 .left_block {
@@ -138,7 +155,7 @@ body {
 
 .case_wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 87px;
     align-items: center;
     color: white;
@@ -149,6 +166,12 @@ body {
     font-size: 22px;
     font-weight: 500;
     line-height: 27px;
+    max-width: 540px;
+}
+
+.case_img{
+    max-width: 457px;
+    height: 408px;
 }
 
 .information {
@@ -158,7 +181,7 @@ body {
 .information_wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
     gap: 86px;
 }
@@ -169,8 +192,7 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-align: right;
-    width: 333px;
-    height: 120px;
+    max-width: 333px;
 }
 
 .inform_l-p {
@@ -179,14 +201,18 @@ body {
     font-weight: 700;
     line-height: 24px;
     text-align: left;
-    width: 333px;
-    height: 144px;
+    max-width: 333px;
 }
 
 .inform_middle {
     text-align: center;
     position: relative;
     display: block;
+}
+
+.inform{
+    max-width: 268px;
+    height: 375px;
 }
 
 .inform_middle::before {
@@ -217,7 +243,8 @@ body {
 .cards_wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 30px;
     color: black;
 }
@@ -272,7 +299,7 @@ body {
 .footer {
     background: #282828;
     box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
-    padding: 81px 245px;
+    padding: 81px 0;
 }
 
 .footer_wrap {

@@ -1,0 +1,118 @@
+
+@media screen and (max-width:1010px){
+    .airpods_wrap{
+        flex-direction: column;
+    }
+
+    .case_wrap{
+        flex-direction: column-reverse;
+    }
+
+    .information {
+        margin-bottom: 79px;
+        margin-top: 80px;
+    }
+
+    .information_wrap{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .inform_middle::before{
+        width: 1px;
+        height: 61px;
+        top: calc(-20%);
+        left: 150px;
+    }
+
+    .inform_middle::after{
+        width: 1px;
+        height: 61px;
+        top: calc(105%);
+        right: 120px;
+    }
+}
+
+@media screen and (max-width:740px){
+    .banner_h{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .wrap {
+        flex-direction: column;
+    }
+
+    .header_logo{
+        display: block;
+        margin: 10px 0 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .phone_header_icon {
+        display: flex;
+    }
+
+    .footer{
+        padding: 31px 0;
+    }
+
+    .footer_wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .airpods_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .case_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .inform{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:450px){
+    .banner_h{
+        font-size: 75px;
+    }
+
+    .airpods_p{
+        font-size: 18px;
+    }
+
+    .case_p{
+        font-size: 18px;
+    }
+
+    .inform_p{
+        font-size: 18px;
+    }
+
+    .inform_l-p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .banner_h{
+        font-size: 73px;
+    }
+}
