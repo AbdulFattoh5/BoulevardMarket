@@ -1,3 +1,8 @@
+@media screen and (max-width:1140px){
+    .cards_wrap{
+        gap: 30px 200px;
+    }
+}
 
 @media screen and (max-width:1010px){
     .airpods_wrap{
@@ -36,6 +41,10 @@
 @media screen and (max-width:740px){
     .banner_h{
         font-size: 80px;
+    }
+
+    .cards_wrap{
+        gap: 30px;
     }
 }
 
